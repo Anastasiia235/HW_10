@@ -1,0 +1,58 @@
+    1  mkdir my_repo
+    2  mkdir my_repos
+    3  cd my_repos
+    4  git config --global user.name "Anastasiia235"
+    5  git config --global user.email "anastasiiakanievska@gmail.com"
+    6  git clone https://github.com/Anastasiia235/HW_10.git
+    7  cd HW_10
+    8  touch text_ignore.txt
+    9  text_ignore.txt
+   10  git status
+   11  mv "text_ignore. txt" text_ignore.txt
+   12  ls-l
+   13  ls-1
+   14  ls -l
+   15  echo "text_ignore.txt">> .gitignore
+   16  git status
+   17  cat .gitignore
+   18  text_ignore.txt
+   19  git rm --cached text_ignore.txt
+   20  git status
+   21  git add .gitignore
+   22  git commit -m
+   23  git commit -m "Оновив .gitignore, додав text_ignore.txt
+git status
+git commit -m "Оновив .gitignore, додав text_ignore.txt"
+git status
+git commit -m "Оновив .gitignore,додав text_ignore.txt"
+   24  git commit -m "Оновив .gitignore, додав text_ignore.txt"
+   25  git status
+   26  git push
+   27  git status
+   28  touch main_test.txt
+   29  git add .
+   30  git commit -m"Додав main_test.txt"
+   31  git status
+   32  git checkout -b develop
+   33  touch develop_test.txt
+   34  git add .
+   35  git commit -m "Додав файл develop_test.txt"
+   36  just a small change
+   37  nano develop_test.txt
+   38  git add .
+   39  git cimmit -m "Додав текст у файл develop_test.txt"
+   40  git checkout main
+   41  git checkcout master
+   42  gitt add .
+   43  git commit -m "Додав текст у develop_test.txt"
+   44  git checkout main
+   45  git merge develop
+   46  git log --oneline --graph --all
+   47  git push origin main
+   48  history > command_list.csv
+   49  history 0 > command_list.csv
+   50  git add .
+   51  git commit -m"Додав історію команд у command_list.cvs"
+   52  git push origin main
+   53  git push origin develop
+   54  history > command_list.csv
